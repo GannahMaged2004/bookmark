@@ -20,7 +20,6 @@ submitBtn.onclick = function () {
     let urlInvalid = !isValidURL(siteURL);
 
     if (nameInvalid || urlInvalid) {
-        // You can also dynamically highlight the reasons in the modal if needed
         modal.show();
         return;
     }
